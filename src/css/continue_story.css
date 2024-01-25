@@ -1,0 +1,80 @@
+body {
+    padding: 0px;
+    background-color: white;
+}
+.img1-cont{
+    position: fixed;
+    top: 20%;
+    width: 27%;
+    left: 10%;
+    padding: 0px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.txt-container{
+    position: fixed;
+    width: 45rem;
+    height: 40rem;
+    right: 10%;
+    top: 24%;
+    align-items: center;
+}
+h1{
+    position: relative;
+    left: 35%;
+}
+
+h3{
+    line-height: 1.5;
+}
+.buttons-cont{
+    position: fixed;
+    background-color:white;
+    top: 75%;
+    left: 8%;
+    height: 100px;
+    width: 460px;
+}
+.restartBtn{
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 13%;
+  
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.continueBtn{
+    width: 200px;
+    height: 70px;
+    background-color: darkred;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 0;
+
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.back-button{
+    position: fixed;
+    right: 8%;
+    top: 2%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: white;
+}
+.next-cont{
+    padding: 25%;
+    border-radius: 50%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}

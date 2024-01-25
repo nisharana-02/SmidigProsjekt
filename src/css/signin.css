@@ -1,0 +1,153 @@
+.signin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.signin__left, 
+.signin__right{
+width: 50%;
+height: 100%;
+}
+
+.signin__left{
+background: url("./../assets/images/bg.png")no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+
+.signin__left h1{
+    color: #ffffff;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.signin__right{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.signin__right__nav{
+    flex-grow: 0.2;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.signin__right__nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+
+.signin__right__nav ul li {
+    margin: 1rem;
+
+}
+
+.signin__right__nav ul li a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.8rem;
+
+}
+
+.signin__right__nav ul li a.active {
+   border-bottom: 0.2rem solid #000000;
+
+}
+
+.signin__right__nav ul li a:hover {
+    border-bottom: 0.4rem solid #000000;
+     
+ }
+
+.signin__right__form{
+    flex-grow: 0.8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.signin__right__form form{
+    width: 80%;
+    margin: 5rem 3rem; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.signin__right__form form .form-group{
+margin-top: 2rem;
+width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+}
+
+.signin__right__form form .form-group label{
+margin: 1rem 0;
+font-size: 1.4rem;
+
+}
+
+.signin__right__form form .form-group input{
+border: none;
+border-bottom: 0.5rem solid #000000;
+background: #f1f1f1;
+font-size: 1.4rem;
+padding: 1rem;
+width: 100%;
+}
+
+.signin__right__form form .form-group:last-child{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin__right__form form .form-group button{
+font-size: 1.4rem;
+background: #DFE2DB;
+border: none;
+border-radius: 1rem;
+color: #000000;
+padding: 1rem;
+width: 15rem;
+box-shadow: 0.1rem 0.1rem 0.1rem #DFE2DB;
+}
+.signin__right__form form .form-group button:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+
+
+@media  (max-width:600px) {
+    .signin__left, 
+    .signin__right{
+    width: 100%;
+    
+    }
+    }
